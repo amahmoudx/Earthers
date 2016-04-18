@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE6AEBEE1CC5164D009B553A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6AEBED1CC5164D009B553A /* main.m */; };
+		DE6AEBF11CC5164D009B553A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6AEBF01CC5164D009B553A /* AppDelegate.m */; };
+		DE6AEBF41CC5164D009B553A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6AEBF31CC5164D009B553A /* ViewController.m */; };
+		DE6AEBF71CC5164D009B553A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE6AEBF51CC5164D009B553A /* Main.storyboard */; };
+		DE6AEBF91CC5164D009B553A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE6AEBF81CC5164D009B553A /* Assets.xcassets */; };
+		DE6AEBFC1CC5164D009B553A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE6AEBFA1CC5164D009B553A /* LaunchScreen.storyboard */; };
+		DE6AEC071CC5164D009B553A /* EarthersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6AEC061CC5164D009B553A /* EarthersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE6AEC031CC5164D009B553A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE6AEBE11CC5164D009B553A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE6AEBE81CC5164D009B553A;
+			remoteInfo = Earthers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE6AEBE91CC5164D009B553A /* Earthers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earthers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6AEBED1CC5164D009B553A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE6AEBEF1CC5164D009B553A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE6AEBF01CC5164D009B553A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE6AEBF21CC5164D009B553A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE6AEBF31CC5164D009B553A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE6AEBF61CC5164D009B553A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE6AEBF81CC5164D009B553A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE6AEBFB1CC5164D009B553A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE6AEBFD1CC5164D009B553A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6AEC021CC5164D009B553A /* EarthersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6AEC061CC5164D009B553A /* EarthersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthersTests.m; sourceTree = "<group>"; };
+		DE6AEC081CC5164D009B553A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE6AEBE61CC5164D009B553A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE6AEBFF1CC5164D009B553A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE6AEBE01CC5164D009B553A = {
+			isa = PBXGroup;
+			children = (
+				DE6AEBEB1CC5164D009B553A /* Earthers */,
+				DE6AEC051CC5164D009B553A /* EarthersTests */,
+				DE6AEBEA1CC5164D009B553A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE6AEBEA1CC5164D009B553A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE6AEBE91CC5164D009B553A /* Earthers.app */,
+				DE6AEC021CC5164D009B553A /* EarthersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE6AEBEB1CC5164D009B553A /* Earthers */ = {
+			isa = PBXGroup;
+			children = (
+				DE6AEBEF1CC5164D009B553A /* AppDelegate.h */,
+				DE6AEBF01CC5164D009B553A /* AppDelegate.m */,
+				DE6AEBF21CC5164D009B553A /* ViewController.h */,
+				DE6AEBF31CC5164D009B553A /* ViewController.m */,
+				DE6AEBF51CC5164D009B553A /* Main.storyboard */,
+				DE6AEBF81CC5164D009B553A /* Assets.xcassets */,
+				DE6AEBFA1CC5164D009B553A /* LaunchScreen.storyboard */,
+				DE6AEBFD1CC5164D009B553A /* Info.plist */,
+				DE6AEBEC1CC5164D009B553A /* Supporting Files */,
+			);
+			path = Earthers;
+			sourceTree = "<group>";
+		};
+		DE6AEBEC1CC5164D009B553A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE6AEBED1CC5164D009B553A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE6AEC051CC5164D009B553A /* EarthersTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE6AEC061CC5164D009B553A /* EarthersTests.m */,
+				DE6AEC081CC5164D009B553A /* Info.plist */,
+			);
+			path = EarthersTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE6AEBE81CC5164D009B553A /* Earthers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE6AEC0B1CC5164D009B553A /* Build configuration list for PBXNativeTarget "Earthers" */;
+			buildPhases = (
+				DE6AEBE51CC5164D009B553A /* Sources */,
+				DE6AEBE61CC5164D009B553A /* Frameworks */,
+				DE6AEBE71CC5164D009B553A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Earthers;
+			productName = Earthers;
+			productReference = DE6AEBE91CC5164D009B553A /* Earthers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE6AEC011CC5164D009B553A /* EarthersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE6AEC0E1CC5164D009B553A /* Build configuration list for PBXNativeTarget "EarthersTests" */;
+			buildPhases = (
+				DE6AEBFE1CC5164D009B553A /* Sources */,
+				DE6AEBFF1CC5164D009B553A /* Frameworks */,
+				DE6AEC001CC5164D009B553A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE6AEC041CC5164D009B553A /* PBXTargetDependency */,
+			);
+			name = EarthersTests;
+			productName = EarthersTests;
+			productReference = DE6AEC021CC5164D009B553A /* EarthersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE6AEBE11CC5164D009B553A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = spaceAppCairo;
+				TargetAttributes = {
+					DE6AEBE81CC5164D009B553A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DE6AEC011CC5164D009B553A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DE6AEBE81CC5164D009B553A;
+					};
+				};
+			};
+			buildConfigurationList = DE6AEBE41CC5164D009B553A /* Build configuration list for PBXProject "Earthers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE6AEBE01CC5164D009B553A;
+			productRefGroup = DE6AEBEA1CC5164D009B553A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE6AEBE81CC5164D009B553A /* Earthers */,
+				DE6AEC011CC5164D009B553A /* EarthersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE6AEBE71CC5164D009B553A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6AEBFC1CC5164D009B553A /* LaunchScreen.storyboard in Resources */,
+				DE6AEBF91CC5164D009B553A /* Assets.xcassets in Resources */,
+				DE6AEBF71CC5164D009B553A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE6AEC001CC5164D009B553A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE6AEBE51CC5164D009B553A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6AEBF41CC5164D009B553A /* ViewController.m in Sources */,
+				DE6AEBF11CC5164D009B553A /* AppDelegate.m in Sources */,
+				DE6AEBEE1CC5164D009B553A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE6AEBFE1CC5164D009B553A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6AEC071CC5164D009B553A /* EarthersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE6AEC041CC5164D009B553A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE6AEBE81CC5164D009B553A /* Earthers */;
+			targetProxy = DE6AEC031CC5164D009B553A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE6AEBF51CC5164D009B553A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE6AEBF61CC5164D009B553A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE6AEBFA1CC5164D009B553A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE6AEBFB1CC5164D009B553A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE6AEC091CC5164D009B553A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE6AEC0A1CC5164D009B553A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE6AEC0C1CC5164D009B553A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Earthers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spaceAppCairo.Earthers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE6AEC0D1CC5164D009B553A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Earthers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spaceAppCairo.Earthers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE6AEC0F1CC5164D009B553A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EarthersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spaceAppCairo.EarthersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Earthers.app/Earthers";
+			};
+			name = Debug;
+		};
+		DE6AEC101CC5164D009B553A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EarthersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spaceAppCairo.EarthersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Earthers.app/Earthers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE6AEBE41CC5164D009B553A /* Build configuration list for PBXProject "Earthers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6AEC091CC5164D009B553A /* Debug */,
+				DE6AEC0A1CC5164D009B553A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE6AEC0B1CC5164D009B553A /* Build configuration list for PBXNativeTarget "Earthers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6AEC0C1CC5164D009B553A /* Debug */,
+				DE6AEC0D1CC5164D009B553A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE6AEC0E1CC5164D009B553A /* Build configuration list for PBXNativeTarget "EarthersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6AEC0F1CC5164D009B553A /* Debug */,
+				DE6AEC101CC5164D009B553A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE6AEBE11CC5164D009B553A /* Project object */;
+}
