@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController{
+    UIImagePickerController *imagePicker;
+    IBOutlet UIImageView *imageView;
+}
+- (IBAction)takePhoto:  (UIButton *)sender;
 
 @end
 
