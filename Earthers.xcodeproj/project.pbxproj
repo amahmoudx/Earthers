@@ -15,7 +15,6 @@
 		DE6AEBFC1CC5164D009B553A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE6AEBFA1CC5164D009B553A /* LaunchScreen.storyboard */; };
 		DE6AEC071CC5164D009B553A /* EarthersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6AEC061CC5164D009B553A /* EarthersTests.m */; };
 		DE6AEC151CC51B91009B553A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6AEC131CC51B7F009B553A /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		DE6AEC181CC7C98D009B553A /* resultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6AEC171CC7C98D009B553A /* resultsViewController.m */; };
 		DE6AEC1B1CC81E40009B553A /* ApplicationServices.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6AEC1A1CC81E40009B553A /* ApplicationServices.m */; };
 		DE6AEC1F1CC9A0EA009B553A /* DBCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6AEC1E1CC9A0EA009B553A /* DBCompass.m */; };
 		DE6AEC411CC9B0F0009B553A /* NSMutableArray+JBStack.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6AEC231CC9B0F0009B553A /* NSMutableArray+JBStack.m */; };
@@ -30,6 +29,7 @@
 		DE6AEC4A1CC9B0F0009B553A /* JBLineChartDotsView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6AEC3C1CC9B0F0009B553A /* JBLineChartDotsView.m */; };
 		DE6AEC4B1CC9B0F0009B553A /* JBLineChartDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6AEC3E1CC9B0F0009B553A /* JBLineChartDotView.m */; };
 		DE6AEC4C1CC9B0F0009B553A /* JBLineChartLinesView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6AEC401CC9B0F0009B553A /* JBLineChartLinesView.m */; };
+		DEFF96ED1CCCD17200E3E069 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFF96EC1CCCD17200E3E069 /* RadioButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,6 @@
 		DE6AEC061CC5164D009B553A /* EarthersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthersTests.m; sourceTree = "<group>"; };
 		DE6AEC081CC5164D009B553A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE6AEC131CC51B7F009B553A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		DE6AEC161CC7C98D009B553A /* resultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resultsViewController.h; sourceTree = "<group>"; };
-		DE6AEC171CC7C98D009B553A /* resultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resultsViewController.m; sourceTree = "<group>"; };
 		DE6AEC191CC81E40009B553A /* ApplicationServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationServices.h; sourceTree = "<group>"; };
 		DE6AEC1A1CC81E40009B553A /* ApplicationServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationServices.m; sourceTree = "<group>"; };
 		DE6AEC1D1CC9A0EA009B553A /* DBCompass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBCompass.h; sourceTree = "<group>"; };
@@ -87,6 +85,8 @@
 		DE6AEC3E1CC9B0F0009B553A /* JBLineChartDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartDotView.m; sourceTree = "<group>"; };
 		DE6AEC3F1CC9B0F0009B553A /* JBLineChartLinesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartLinesView.h; sourceTree = "<group>"; };
 		DE6AEC401CC9B0F0009B553A /* JBLineChartLinesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartLinesView.m; sourceTree = "<group>"; };
+		DEFF96EB1CCCD17200E3E069 /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RadioButton.h; path = "../../RadioButton-ios-sample/RadioButton.h"; sourceTree = "<group>"; };
+		DEFF96EC1CCCD17200E3E069 /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RadioButton.m; path = "../../RadioButton-ios-sample/RadioButton.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +137,6 @@
 				DE6AEBF21CC5164D009B553A /* ViewController.h */,
 				DE6AEBF31CC5164D009B553A /* ViewController.m */,
 				DE6AEBF51CC5164D009B553A /* Main.storyboard */,
-				DE6AEC161CC7C98D009B553A /* resultsViewController.h */,
-				DE6AEC171CC7C98D009B553A /* resultsViewController.m */,
 				DE6AEC191CC81E40009B553A /* ApplicationServices.h */,
 				DE6AEC1A1CC81E40009B553A /* ApplicationServices.m */,
 				DE6AEBF81CC5164D009B553A /* Assets.xcassets */,
@@ -179,6 +177,8 @@
 		DE6AEC201CC9B0F0009B553A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DEFF96EB1CCCD17200E3E069 /* RadioButton.h */,
+				DEFF96EC1CCCD17200E3E069 /* RadioButton.m */,
 				DE6AEC211CC9B0F0009B553A /* Additions */,
 				DE6AEC241CC9B0F0009B553A /* Bar */,
 				DE6AEC2A1CC9B0F0009B553A /* Base */,
@@ -377,6 +377,7 @@
 				DE6AEC471CC9B0F0009B553A /* JBShapeLineLayer.m in Sources */,
 				DE6AEC421CC9B0F0009B553A /* JBBarChartView.m in Sources */,
 				DE6AEC431CC9B0F0009B553A /* JBGradientBarView.m in Sources */,
+				DEFF96ED1CCCD17200E3E069 /* RadioButton.m in Sources */,
 				DE6AEC441CC9B0F0009B553A /* JBChartView.m in Sources */,
 				DE6AEBF11CC5164D009B553A /* AppDelegate.m in Sources */,
 				DE6AEC481CC9B0F0009B553A /* JBLineChartLine.m in Sources */,
@@ -387,7 +388,6 @@
 				DE6AEC4B1CC9B0F0009B553A /* JBLineChartDotView.m in Sources */,
 				DE6AEC4A1CC9B0F0009B553A /* JBLineChartDotsView.m in Sources */,
 				DE6AEC411CC9B0F0009B553A /* NSMutableArray+JBStack.m in Sources */,
-				DE6AEC181CC7C98D009B553A /* resultsViewController.m in Sources */,
 				DE6AEC1B1CC81E40009B553A /* ApplicationServices.m in Sources */,
 				DE6AEC461CC9B0F0009B553A /* JBGradientLineLayer.m in Sources */,
 			);

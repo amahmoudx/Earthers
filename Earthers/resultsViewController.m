@@ -8,8 +8,11 @@
 
 #import "resultsViewController.h"
 #import "ApplicationServices.h"
+#import "ViewController.h"
 @interface resultsViewController (){
     NSMutableDictionary *openWeatherDataArray;
+    #define FILE_EXTENSION    @".png"
+    #define IMAGE_NAME        @"CameraImage"
 }
 @property (nonatomic, strong) ApplicationServices *service;
 
@@ -50,6 +53,7 @@
     NSString *degrees = [NSString stringWithFormat:@"%@",[[openWeatherDataArray objectForKey:@"wind"]objectForKey:@"deg"]];
     _directionImage.transform = CGAffineTransformMakeRotation([degrees floatValue] * M_PI/180);
     _dewValue.text = [NSString stringWithFormat:@"%@°",[[openWeatherDataArray objectForKey:@"wind"]objectForKey:@"deg"]];
+    
 }
 /*
 #pragma mark - Navigation

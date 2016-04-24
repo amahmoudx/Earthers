@@ -49,10 +49,10 @@
         [messageTask resume];
     }
 }
-- (void)getOpenWeatherUVIData:(NSString *)lat :(NSString *)lon completionBlock:(ServiceCompletionBlock)completionBlock{
+- (void)getSatelliteImage:(NSString *)lat :(NSString *)lon completionBlock:(ServiceCompletionBlock)completionBlock{
     if (lat > 0 && lon >0){
-        NSString *const URLString = @"http://api.owm.io/air/1.0/uvi/current?lat=%@&lon=%@&appid=%@&units=metric";
-        NSURL *msgURL = [NSURL URLWithString:[NSString stringWithFormat:URLString,lat,lon,APP_ID]];
+        NSString *const URLString = @"http://maps.googleapis.com/maps/api/staticmap?center=%@,%@&zoom=16&scale=1&size=600x300&maptype=satellite&key=AIzaSyCx-JIUt-rFnFgkA3WWvFRJmMNKcaDvS0o&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C%@,%@";
+        NSURL *msgURL = [NSURL URLWithString:[NSString stringWithFormat:URLString,lat,lon,lat,lon]];
         NSURLSession *session = [NSURLSession sharedSession];
         
         NSURLSessionTask *messageTask = [session dataTaskWithURL:msgURL completionHandler:^(NSData *data, NSURLResponse *response, NSError *error)  {
@@ -71,7 +71,7 @@
                                                 options:NSJSONReadingAllowFragments
                                                 error:&error];
                     if (jsonObject != nil && error == nil){
-                        //NSLog (@ "JSON data =%@", [jsonObject allValues]);
+                        NSLog (@ "JSON data =%@", [jsonObject allValues]);
                         completionBlock(jsonObject, nil);
                     }else {
                         completionBlock(nil, error);
@@ -89,4 +89,5 @@
         [messageTask resume];
     }
 }
+
 @end

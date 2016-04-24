@@ -10,5 +10,4 @@
 typedef void(^ServiceCompletionBlock)(id result, NSError *error);
 @interface ApplicationServices : NSObject
 - (void)getOpenWeatherData:(NSString *)lat :(NSString *)lon completionBlock:(ServiceCompletionBlock)completionBlock;
-- (void)getOpenWeatherUVIData:(NSString *)lat :(NSString *)lon completionBlock:(ServiceCompletionBlock)completionBlock;
 @end

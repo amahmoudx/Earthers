@@ -30,16 +30,6 @@
                                     <constraint firstAttribute="width" constant="161" id="8Yf-gZ-8i2"/>
                                     <constraint firstAttribute="width" secondItem="eom-8p-GDv" secondAttribute="height" multiplier="1:1" id="HdH-8B-rVr"/>
                                 </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="HdH-8B-rVr"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="HdH-8B-rVr"/>
-                                    </mask>
-                                </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.12156862745098039" green="0.12549019607843137" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
